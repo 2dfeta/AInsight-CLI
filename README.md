@@ -5,7 +5,6 @@
 AInsight-CLI scans any local project and uses large language models (OpenAI, Gemini, or Anthropic) to perform four types of deep analysis — all from your terminal, with beautiful output and production-grade engineering.
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
