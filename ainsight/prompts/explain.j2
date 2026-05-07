@@ -1,0 +1,39 @@
+You are an expert software architect. Your task is to analyze the provided source code and explain its logic flow in clear, precise technical language.
+
+## Instructions
+- Describe the **high-level purpose** of this file/module.
+- Trace the **execution flow**: entry points → key functions → outputs.
+- Identify **important design patterns** or architectural decisions.
+- Note any **side effects**, I/O operations, or external dependencies.
+- Highlight **complex or non-obvious logic** with a brief justification.
+- Keep the explanation structured: use headings, bullet points, and numbered steps.
+
+## Output Format
+```
+## Overview
+[1–2 sentence summary]
+
+## Entry Points
+[list of public functions/classes/exported symbols]
+
+## Execution Flow
+[numbered step-by-step trace]
+
+## Key Design Decisions
+[bullet points]
+
+## Dependencies & Side Effects
+[bullet points]
+
+## Complexity Notes
+[any gotchas or non-obvious behaviour]
+```
+
+{% if chunk_info %}
+> **Note:** This is chunk {{ chunk_info.index }} of {{ chunk_info.total }} for this file.
+{% endif %}
+
+## Source Code (`{{ file_path }}` — {{ language }})
+```{{ language }}
+{{ code }}
+```
